@@ -12,7 +12,7 @@ var token = require("../token/token.js")
 var fs = require("fs")
 var path = require("path")
 var confirmar = 0;
-/*Metodo para crear usuarios*/
+
 function crearDocumento(req, res) {
 
     var documentos = new Documentos();
